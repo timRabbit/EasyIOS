@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     sp.dependency 'ReactiveCocoa','2.5'
     sp.dependency 'MBProgressHUD'
     sp.dependency 'JSONModel'
-    sp.dependency 'SharkORM'
+#    sp.dependency 'SharkORM'
     sp.dependency 'TMCache'
     sp.dependency 'UIActivityIndicator-for-SDWebImage'
     sp.dependency 'AFNetworking'
