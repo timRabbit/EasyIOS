@@ -9,7 +9,7 @@
 #import "Action.h"
 #import "Scene.h"
 #import "Model.h"
-#import <SharkORM/SharkORM.h>
+//#import <SharkORM/SharkORM.h>
 #import <JSONModel/JSONModel.h>
 #import <AFNetworking/AFNetworking.h>
 #import <GCDObjC/GCDObjC.h>
