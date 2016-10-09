@@ -8,7 +8,9 @@ Pod::Spec.new do |s|
   s.license               = { :type => "MIT", :file => "LICENSE" }
   s.author                = { "zhuchao" => "zhuchao@iosx.me" }
   s.source                = { :git => "https://github.com/zhuchaowe/EasyIOS.git",:tag => "2.3" }
-  s.source_files = '*.{h,m,mm}','Easy/**/*.{h,m,mm}','Extend/**/*.{h,m,mm}'
+  s.source_files = '*.{h,m,mm}'
+  s.source_files = 'Easy/**/*.{h,m,mm}'
+  s.source_files = 'Extend/**/*.{h,m,mm}'
   
   s.ios.deployment_target = "6.0"
   s.requires_arc          = true
