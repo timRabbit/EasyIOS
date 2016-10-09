@@ -23,10 +23,10 @@ Pod::Spec.new do |s|
     sp.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libz, $(SDKROOT)/usr/include/libxml2', 'CLANG_CXX_LANGUAGE_STANDARD' => 'gnu++0x', 'CLANG_CXX_LIBRARY' => 'libstdc++', 'CLANG_WARN_DIRECT_OBJC_ISA_USAGE' => 'YES'}
     sp.dependency 'ReactiveCocoa','2.5'
     sp.dependency 'MBProgressHUD'
-    sp.dependency 'JSONModel'
+#    sp.dependency 'JSONModel'
 #    sp.dependency 'SharkORM'
     sp.dependency 'TMCache'
-    sp.dependency 'UIActivityIndicator-for-SDWebImage'
+#    sp.dependency 'UIActivityIndicator-for-SDWebImage'
 #    sp.dependency 'AFNetworking'
     sp.dependency 'GCDObjC'
     sp.dependency 'FLKAutoLayout','0.1.1'
