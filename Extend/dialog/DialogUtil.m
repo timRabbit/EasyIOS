@@ -314,6 +314,8 @@
     [window addSubview:showview];
     
     UILabel *label = [[UILabel alloc]init];
+    label.numberOfLines = 0;
+
     CGSize LabelSize = [message sizeWithFont:[UIFont systemFontOfSize:17] constrainedToSize:CGSizeMake(290, 9000)];
     label.frame = CGRectMake(10, 5, LabelSize.width, LabelSize.height);
     label.text = message;
