@@ -321,6 +321,8 @@
     label.text = message;
     label.textColor = [UIColor whiteColor];
     label.textAlignment = 1;
+    label.numberOfLines = 0;
+
     label.backgroundColor = [UIColor clearColor];
     label.font = [UIFont boldSystemFontOfSize:15];
     [showview addSubview:label];
